@@ -7,9 +7,7 @@ import com.orm.SugarRecord;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Ihsanulhaq on 3/12/2016.
- */
+
 
 public class RelatedTopic extends SugarRecord implements Serializable {
 
@@ -86,7 +84,12 @@ public class RelatedTopic extends SugarRecord implements Serializable {
     }
 
     public String getTitle() {
-        return Text.substring(0, getText().indexOf("-") - 1);
+        if(getText().contains("-")) {
+            return Text.substring(0, getText().indexOf("-") - 1);
+        }else{
+            return Text.substring(0, getText().indexOf(" ") - 1);
+        }
+
     }
 
     public boolean getFavorite() {

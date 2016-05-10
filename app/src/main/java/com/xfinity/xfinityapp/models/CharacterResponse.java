@@ -1,8 +1,5 @@
 package com.xfinity.xfinityapp.models;
 
-/**
- * Created by Ihsanulhaq on 3/11/2016.
- */
 
 import java.util.ArrayList;
 import java.util.List;

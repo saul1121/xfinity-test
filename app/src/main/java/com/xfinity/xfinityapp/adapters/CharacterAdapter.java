@@ -15,9 +15,7 @@ import com.xfinity.xfinityapp.viewholders.ExtendedCharacterViewHolder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Ihsanulhaq on 3/12/2016.
- */
+
 public class CharacterAdapter extends RecyclerView.Adapter {
 
     private final Context mContext;

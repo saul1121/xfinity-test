@@ -4,9 +4,6 @@ import com.orm.SugarRecord;
 
 import java.io.Serializable;
 
-/**
- * Created by Ihsanulhaq on 3/12/2016.
- */
 
 public class Icon extends SugarRecord implements Serializable {
 

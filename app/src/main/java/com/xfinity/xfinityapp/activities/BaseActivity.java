@@ -19,9 +19,7 @@ import android.widget.ImageButton;
 import com.xfinity.xfinityapp.R;
 import com.xfinity.xfinityapp.customviews.TitleTextView;
 
-/**
- * Created by Ihsanulhaq on 3/15/2016.
- */
+
 public class BaseActivity extends AppCompatActivity {
 
     private TitleTextView title;

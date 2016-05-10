@@ -14,9 +14,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by Ihsanulhaq on 3/10/2016.
- */
+
 public class CharacterRestAPI implements Callback<CharacterResponse> {
 
     private static final String BASE_URL = "http://api.duckduckgo.com";

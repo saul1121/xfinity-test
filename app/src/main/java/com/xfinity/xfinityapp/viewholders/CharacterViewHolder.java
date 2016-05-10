@@ -13,9 +13,7 @@ import com.xfinity.xfinityapp.models.RelatedTopic;
 import com.xfinity.xfinityapp.util.BundleConstants;
 import com.xfinity.xfinityapp.util.EventConstants;
 
-/**
- * Created by Ihsanulhaq on 3/12/2016.
- */
+
 public class CharacterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
     private final Context mContext;

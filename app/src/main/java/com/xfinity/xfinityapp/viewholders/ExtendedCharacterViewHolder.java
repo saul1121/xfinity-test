@@ -9,9 +9,7 @@ import com.xfinity.xfinityapp.R;
 import com.xfinity.xfinityapp.models.Icon;
 import com.xfinity.xfinityapp.models.RelatedTopic;
 
-/**
- * Created by Ihsanulhaq on 3/12/2016.
- */
+
 public class ExtendedCharacterViewHolder extends CharacterViewHolder {
 
     private final Context mContext;

@@ -8,9 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
-/**
- * Created by Ihsanulhaq on 3/15/2016.
- */
+
 public class SquareRelativeLayout extends RelativeLayout {
     private final Context context;
 
